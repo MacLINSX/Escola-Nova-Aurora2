@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+}
+.container {
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.box {
+    background-color: black;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 60px;
+    border-radius: 15px;
+    padding: 15px;
+    height: 500px;
+    width: 250px;
+    display: inline-block;
+}
+.botao-comprar{
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    font-size: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s; transform: 0.3s;
+}
+.botao-comprar:hover{
+    background-color: rgb(167, 236, 4);
+    transform: scale(1.05);
+}
+p, h1, h2, h3, h4{
+    color: white;
+    text-align: justify;
+}
+span{
+    color:white;
+}
+li,ul{
+ color: white;
+}
+a{
+    color: white;
+}
+
+.text{
+ text-align: center;
+ color: white;
+ font-size: 20px;
+ text-align: justify;
+
+}
+footer{
+    color: white;
+    text-align: center;
+}
+.inscrever{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 10px;
+}
